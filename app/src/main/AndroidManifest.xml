@@ -9,9 +9,12 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.Tugas1">
-        <activity android:name=".ActivityHasil"
-            android:parentActivityName=".MainActivity"
-            android:label="Login Berhasil"></activity>
+        <activity android:name=".pendaftaran"
+            android:parentActivityName=".MainActivity"></activity>
+        <activity
+            android:name=".ActivityHasil"
+            android:label="Login Berhasil"
+            android:parentActivityName=".MainActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
